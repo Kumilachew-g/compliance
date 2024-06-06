@@ -1,7 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom"; // Import useNavigate
 import InputField from "components/fields/InputField";
-import Checkbox from "components/checkbox";
 
 export default function SignIn() {
   const navigate = useNavigate(); // Initialize useNavigate
