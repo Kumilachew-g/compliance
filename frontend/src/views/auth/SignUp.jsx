@@ -80,7 +80,7 @@ export default function SignIn() {
             onClick={handleSignupRedirect}
             className="ml-1 text-sm font-medium text-brand-500 hover:text-brand-600 dark:text-white"
           >
-            Sign In
+            Sign Up
           </button>
         </div>
       </div>
