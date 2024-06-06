@@ -4,6 +4,7 @@ import React from "react";
 import MainDashboard from "views/admin/default";
 import Profile from "views/admin/profile";
 import DataTables from "views/admin/tables";
+import OrgList from "components/OrgList";
 
 // Auth Imports
 import SignIn from "views/auth/SignIn";
@@ -20,6 +21,8 @@ import {
   MdBook,
   MdBookmark,
 } from "react-icons/md";
+import CreateOrganization from "components/CreateOrganization";
+import ComplianceForm from "components/ComplianceForm";
 
 const routes = [
   {
@@ -35,7 +38,14 @@ const routes = [
     layout: "/admin",
     icon: <MdBarChart className="h-6 w-6" />,
     path: "data-tables",
-    component: <DataTables />,
+    component: <CreateOrganization />,
+  },
+  {
+    name: "የተቋማት ዝርዝር",
+    layout: "/admin",
+    icon: <MdBarChart className="h-6 w-6" />,
+    path: "",
+    component: <OrgList />,
   },
   {
     name: "ሠራተኞች",
@@ -56,7 +66,7 @@ const routes = [
     layout: "/admin",
     icon: <MdBookmark className="h-6 w-6" />,
     path: "data-tables",
-    component: <DataTables />,
+    component: <ComplianceForm />,
   },
   {
     name: "የቅሬታ መልስ",
