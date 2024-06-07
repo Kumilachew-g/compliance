@@ -65,7 +65,7 @@ const routes = [
     name: "ቅሬታ",
     layout: "/admin",
     icon: <MdBookmark className="h-6 w-6" />,
-    path: "data-tables",
+    path: "compliance-form",
     component: <ComplianceForm />,
   },
   {
