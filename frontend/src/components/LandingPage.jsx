@@ -47,21 +47,21 @@ const LandingPage = () => {
           <div className="mt-4 flex justify-center">
             <div className="text-center text-sm text-gray-600">
               <p className="mb-2">
-                Don't have an account?{" "}
+                ከዚህ በፊት የተፈጠረ መለያ የለዎትም?{" "}
                 <Link
                   to="/auth/sign-up"
                   className="font-medium text-blue-600 hover:text-blue-500"
                 >
-                  Sign up
+                  አዲስ መለያ ይፍጠሩ
                 </Link>
               </p>
               <p>
-                Already have an account?{" "}
+                ከዚህ በፊት የተፈጠረ መለያ አለዎት?{" "}
                 <Link
                   to="/auth/sign-in"
                   className="font-medium text-blue-600 hover:text-blue-500"
                 >
-                  Sign in
+                  ይግቡ
                 </Link>
               </p>
             </div>
