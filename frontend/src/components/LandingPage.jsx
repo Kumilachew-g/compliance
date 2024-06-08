@@ -41,7 +41,7 @@ const LandingPage = () => {
               to="/auth/compliance-form"
               className="border-transparent flex w-full items-center justify-center rounded-md border bg-blue-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-blue-700 md:py-3 md:px-4 md:text-lg"
             >
-              Go to Compliance Form
+              ወደቅሬታ ማቅረቢያ ይግቡ
             </Link>
           </div>
           <div className="mt-4 flex justify-center">
